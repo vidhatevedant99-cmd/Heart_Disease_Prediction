@@ -1,34 +1,72 @@
-❤️ Heart Disease Prediction
+# ❤️ Heart Disease Prediction using Logistic Regression
 
-📌 Overview
-A machine learning project that predicts the likelihood of heart disease using Logistic Regression. The project demonstrates data preprocessing, feature engineering, model training, and evaluation using Scikit-learn Pipelines.
+## 📌 Overview
 
-📂 Dataset
-• UCI Heart Disease Dataset
+This project predicts whether a patient is likely to have heart disease using **Logistic Regression**. It demonstrates the complete machine learning workflow, including data preprocessing, model training, evaluation, and prediction using **Scikit-learn Pipelines**.
 
-🛠 Technologies
-• Python
-• Pandas
-• NumPy
-• Matplotlib
-• Scikit-learn
+## 📂 Dataset
 
-⚙️ Workflow
-• Data Cleaning
-• Missing Value Handling
-• One-Hot Encoding
-• Train-Test Split
-• Pipeline
-• Logistic Regression
-• Model Evaluation
+* **Dataset:** UCI Heart Disease Dataset
+* **Source:** UCI Machine Learning Repository
 
-📊 Result
-Accuracy: 83%
+## 🛠️ Technologies Used
 
-🚀 How to Run
-1. Install dependencies.
-2. Open the notebook.
-3. Run all cells.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Joblib
+* Google Colab
 
-👨‍💻 Author
-Vedant Vidhate free to ⭐ the repository.
+## ⚙️ Project Workflow
+
+* Data Loading
+* Data Cleaning
+* Missing Value Handling
+* One-Hot Encoding
+* Train-Test Split
+* Pipeline & ColumnTransformer
+* Logistic Regression
+* Model Evaluation
+* Prediction on New Data
+
+## 📊 Results
+
+* **Model:** Logistic Regression
+* **Accuracy:** **83%**
+
+Evaluation Metrics:
+
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the notebook in Google Colab or Jupyter Notebook.
+4. Run all the cells.
+
+## 📁 Repository Structure
+
+```text
+Heart_Disease_Prediction/
+│
+├── Heart_Disease_Prediction.ipynb
+├── requirements.txt
+├── heart_disease_model.pkl
+└── README.md
+```
+
+## 👨‍💻 Author
+
+**Vedant Vidhate**
+
+If you found this project helpful, consider giving it a ⭐.
